@@ -1,0 +1,68 @@
+@font-face {
+    font-family: monserrat-semibold;
+    src: url("./fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: monserrat-med;
+    src: url("./fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: monserrat-reg;
+    src: url("./fonts/Montserrat-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 30vh 10vh 0;
+    font-size: 3vh;
+    font-family: monserrat-semibold;
+}
+
+.pink{
+    display: block;
+    color: rgb(234, 59, 140);
+    font-family: monserrat-reg;
+    text-decoration: underline;
+    text-decoration-thickness: 10px;
+    text-underline-offset: 20px;
+}
+
+.input-container {
+    margin: 2vh 10vh 0;
+}
+
+input {
+    font-size: 2vh;
+    padding: 30px;
+    margin-right: 20px;
+    width: 50%;
+    max-width: 1200px;
+    border-radius: 20px;
+}
+
+#copy {
+    background-color:rgb(234, 59, 140);
+    color: white;
+    padding: 30px;
+    font-size: 2vh;
+    border: none;
+    border-radius: 20px;
+}
+
+#generate-password {
+    margin-top: 1.5vh;
+    font-size: 2vh;
+    padding: 30px;
+    background-color:rgb(234, 59, 140);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 30%;
+    max-width: 600px;
+}
