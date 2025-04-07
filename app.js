@@ -1,4 +1,5 @@
 const passwordBox = document.getElementById("password-container");
+const copyBtn = document.getElementById("copy");
 const length = 12;
 const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowercase = "abcdefghijklmnopqrstuvwxyz";
@@ -23,4 +24,5 @@ function copyPassword(){
     passwordBox.select();
     document.execCommand("copy");
     alert("Password Copied!")
+    copyBtn.innerHTML = "Copied!";
 }
